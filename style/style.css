@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+.MainContent{
+	
+	background-image: url(../img/fon.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	height: 650px;
+	
+
+
+}
+.header{
+	height: 100px;
+	background-color: #47515a;
+	opacity: 0.7;
+}
+.headerFon{
+	height: 100px;
+	margin: auto;
+	width: 960px;
+}
+.LogoCompany{
+	width: 50%;
+	float: left;
+	height: 100px;
+	line-height: 100px;
+	padding-left: 50px;
+	box-sizing: border-box;
+	font-size: 20px;
+	color: #fff;
+}
+.navigation{
+	width: 50%;
+	float: right;
+	height: 100px;
+	box-sizing: border-box;
+	line-height: 100px;
+	padding-left: 20px;
+}
+.E{
+	color: #4cc9ff;
+}
+ul.hr li {
+    display: inline;
+    margin-right: 5px;
+    padding: 5px 10px 5px 10px;
+    color: #fff;
+    font-size: 10px; 
+    font-weight: 700;
+   }
+ul.hr li:hover{
+	color: #4cc9ff;
+    border: 1px solid #4cc9ff;
+}
+.content{
+	text-align: center;
+	margin: auto;
+	width: 960px;
+	height: 200px;
+	padding-top: 200px;
+
+}
+.ContentText{
+	font-size: 30px;
+	color: #fff;
+	line-height: 70px;
+	font-weight: lighter;
+	background-color: #47515a;
+	opacity: 0.8;
+}
+.servicesBlock{
+	margin: auto;
+	background-color: #4cc9ff; 
+}
+
+.services{
+	height: 350px;
+	background-color: #4cc9ff; 
+	color: #fff;
+	box-sizing: border-box;
+	margin: auto;
+	width: 960px;
+	font-weight: lighter;
+	padding-top: 40px;
+}
+svg{
+	height: 10px;
+}
+.ServicesMenu{
+	margin: auto;
+	width: 960px;
+	box-sizing: border-box;
+}
+.Block1, .Block2, .Block3, .Block4{
+
+	height: 200px;
+	width: 24%;
+	display: inline-block;
+	padding-top: 10px;
+	padding-left:15px;
+	box-sizing: border-box;
+
+}
+h2{
+	font-weight: 300;
+}
+p{
+	font-size: 15px;
+}
+
+
+
+
