@@ -6,7 +6,7 @@
 	
 	background: url(../img/fon1.png);
 	width: 100%;
-	height: 100vh;
+	height: 800px;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -51,10 +51,12 @@ ul.hr li {
     font-size: 10px; 
     font-weight: 700;
      border: 1px solid #47515a;
+     cursor: pointer;
    }
 ul.hr li:hover{
 	color: #4cc9ff;
     border: 1px solid #4cc9ff;
+    cursor: pointer;
 }
 .content{
 	text-align: center;
@@ -80,7 +82,7 @@ ul.hr li:hover{
 }
 
 .services{
-	height: 350px;
+	height: 405px;
 	background-color: #4cc9ff; 
 	color: #fff;
 	box-sizing: border-box;
@@ -108,13 +110,16 @@ svg{
 /*	padding-top: 10px;*/
 	padding-left:15px;
 	box-sizing: border-box;
+	padding-top: 10px;
 
 }
 .h2page1{
 	font-weight: 300;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 .par{
-	font-size: 15px;
+	font-size: 12px;
 }
 
 /*Вторая страница*/
@@ -125,7 +130,7 @@ svg{
 	/*background-color: red;*/
 	
 }
-.content2, .content3, .content4, .content5, .content6, .content7{
+.content2, .content3, .content4, .content5, .content6, .content7, .content8{
 	width: 1170px;
 	margin: 0 auto;
 }
@@ -157,16 +162,19 @@ svg{
 	color: #515f67;
 	border: 1px solid #FFf;
 	font-weight: 900;
+	cursor: pointer;
 }
 
 .liportfolio .nav2 ul.hr li:hover{
 	color: #4cc9ff;
-	border: 1px solid #4cc9ff
+	border: 1px solid #4cc9ff;
+	cursor: pointer;
 }
 .photoblock{
 	position: absolute;
 	box-sizing: border-box;
 	padding-top: 80px;
+
 }
 .string1, .string2{
 	height: 270px;
@@ -181,6 +189,7 @@ svg{
 	margin: 0;
 	margin-left: 20px;
 	transition: 0.5s;
+	cursor: pointer;
 
 } 
 .photo1{
@@ -266,10 +275,12 @@ svg{
 	text-align: center;
 	color: #353f46;
 	margin-top: 40px;
+	cursor: pointer;
 }
 .justborder:hover{
 	border: 5px solid #FFF;
 	color: #fff;
+	cursor: pointer;
 }
 .content3Video{
 	float: right;
@@ -358,15 +369,15 @@ svg{
 	font-size: 13px;
 	color: #fff;
 }
-.sicialIcon{
+.socialIcon{
 	padding-top: 36px;
 }
-.sicialIcon img{
-	
+.socialIcon img{
+	 cursor: pointer;
 	 border: 2px solid #fff;
 }
-.sicialIcon img:hover{
-
+.socialIcon img:hover{
+	cursor: pointer;
 	 border: 2px solid #4cc9ff;
 }
 .firstimg{
@@ -399,6 +410,7 @@ svg{
 	font-weight: 300;
 	padding-top: 100px;
 }
+/*часть 7*/
 .contenrPage7{
 	width: 100%;
 	height: 814px;
@@ -456,7 +468,57 @@ label{
 	box-sizing: border-box;
 	padding-top: 40px;
 }
-
+.contactbuttom button{
+	color: #FFF;
+	font-size: 1em;
+	text-transform: uppercase;
+	background: #4BCAFF;
+	transition: all 0.3s;
+	font-weight: 500;
+	border: none;
+	cursor: pointer;
+	outline: none;
+}
+.contactbuttom button:hover{
+	 border: 2px solid #fff;
+}
+/*часть 8*/
+.contentPage8{
+	width: 100%;
+	height: 170px;
+	background-color: #353f47;
+}
+.leftfooter{
+	width: 50%;
+	height: 170px;
+	box-sizing: border-box;
+	line-height: 170px;
+	float: left;
+}
+.rightfooter{
+	width: 50%;
+	height: 170px;
+	box-sizing: border-box;
+	line-height: 170px;
+	float: right;
+}
+.footernav ul li {
+	display: inline-block;
+	font-size: 10px;
+	font-weight: 500;
+	padding-left: 3px;
+	cursor: pointer;
+}
+.footernav ul li a{
+	text-decoration: none;
+	color: #515f67;
+}
+.rightfooter p{
+	color: #515f67;
+	font-size: 10px;
+	font-weight: 500;
+	padding-left: 60%;
+}
 
 
 
