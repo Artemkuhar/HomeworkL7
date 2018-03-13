@@ -10,6 +10,7 @@
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position:  center;
 
 }
 .header{
@@ -336,6 +337,7 @@ svg{
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position:  center;
 	
 }
 .content5left{
@@ -418,6 +420,10 @@ svg{
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position:  center;
+	
+	
+
 
 }
 
